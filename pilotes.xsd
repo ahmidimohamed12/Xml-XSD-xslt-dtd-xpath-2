@@ -1,0 +1,26 @@
+ <xs:element name="pilotes">
+ <xs:complexetype>
+     <xs:sequence>
+         <xs:element name="pilote">
+                <xs:complexetype>
+                    <xs:sequence>
+                        <xs:element name="numero" type="xs:Int32" />
+                        <xs:element name="nom" type="xs:String" />
+                        <xs:element name="prenom" type="xs:String" />
+                        <xs:element name="dn" type="xs:Date" />
+                    </xs:sequence>
+                </xs:complexetype>
+         </xs:element>
+         <xs:element name="pilote">
+                <xs:complexetype>
+                    <xs:sequence>
+                        <xs:element name="nom" type="xs:String" />
+                        <xs:element name="prenom" type="xs:String" />
+                        <xs:element name="dn" type="xs:Date" />
+                    </xs:sequence>
+                    <xs:attribute name="numero"  type="xs:Int32" />
+                </xs:complexetype>
+         </xs:element>
+     </xs:sequence>
+ </xs:complexetype>
+ </xs:element>

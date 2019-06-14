@@ -1,0 +1,24 @@
+/pilotes/pilote[1]
+
+//pilote[1]
+//pilote[2]
+
+/pilotes/pilote[1]/nom
+
+//pilote[1]/nom
+
+/pilotes/pilote/nom
+
+//nom
+
+//pilote[nom == "Habba"]
+//nom[last()-1]
+//nom[position() == last()]
+//nom[position() == 4]
+
+//pilote[] 
+////////////////////////////////////////////////
+
+//pilote[numero == '1']
+//pilote[@numero]
+//pilote[3]/dn

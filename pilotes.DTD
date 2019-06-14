@@ -1,0 +1,8 @@
+  <!ELEMENT  pilotes(pilote+)/>
+  <!ELEMENT pilote(numero,nom,prenom,dn) />
+  <!ELEMENT  numero #PCDATA /> 
+  <!ELEMENT  nom #PCDATA /> 
+  <!ELEMENT  prenom #PCDATA /> 
+  <!ELEMENT  dn #PCDATA /> 
+  <!ATTLIST  numero #CDATA />
+   
